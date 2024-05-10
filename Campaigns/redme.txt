@@ -1,0 +1,3 @@
+run below query : 
+
+INSERT INTO `vtiger_cron_task` (`id`, `name`, `handler_file`, `frequency`, `laststart`, `lastend`, `status`, `module`, `sequence`, `description`) VALUES ('8', 'Campaignssendmail', 'cron\\modules\\Campaigns\\Campaignssendmail.service', '60', '1715341769', '1715341773', '1', 'Campaigns', '8', 'Recommended frequency for MailSend is 15 mins');
